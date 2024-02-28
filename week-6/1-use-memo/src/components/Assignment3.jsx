@@ -13,12 +13,13 @@ export const Assignment3 = () => {
 
     // Your code starts here
     const totalValue = 0;
-    // Your code ends here
+    // Your cod
     return (
         <div>
             <ul>
                 {items.map((item, index) => (
                     <li key={index}>{item.name} - Price: ${item.value}</li>
+                    
                 ))}
             </ul>
             <p>Total Value: {totalValue}</p>
