@@ -1,0 +1,21 @@
+name = "blogging-app"
+compatibility_date = "2023-12-01"
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiOTAwOTc2ZDYtN2FjMC00NDA0LThjZTMtY2M4YTlmYjI2NWY5IiwidGVuYW50X2lkIjoiNmFlNjJjODA5MDFiNmRkNTNiNmY4YTZjOTBiNWFkYzRjYmU3M2JkYTNmOTY3NTljOGU2ZGM1NGM3MmRhZTYyYyIsImludGVybmFsX3NlY3JldCI6ImVhYjM1ODViLTM2M2MtNDU3MC1hYTk3LWZlMDFhOWI4OTI4OSJ9.0OUJziJPs4lNCUKSC2YOxpg8TOvTkH3GLWNGHaBEMco"
